@@ -1,0 +1,19 @@
+{
+  "dataServiceGeneratorVersion": "0.12.2",
+  "appInfo": {
+    "name": "My app testg",
+    "description": "",
+    "version": "iztpi47n",
+    "id": "cl15zg8nc43382601s6h7jcl0da",
+    "url": "https://app.amplication.com/cl15zg8nc43382601s6h7jcl0da",
+    "settings": {
+      "dbHost": "localhost",
+      "dbName": "",
+      "dbPassword": "admin",
+      "dbPort": 5432,
+      "dbUser": "admin",
+      "appId": "cl15zg8nc43382601s6h7jcl0da",
+      "authProvider": "Jwt"
+    }
+  }
+}
