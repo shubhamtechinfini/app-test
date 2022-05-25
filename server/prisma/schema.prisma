@@ -8,6 +8,7 @@ generator client {
 }
 
 model User {
+  admin     String?
   createdAt DateTime @default(now())
   firstName String?
   id        String   @id @default(cuid())
@@ -16,4 +17,23 @@ model User {
   roles     String[]
   updatedAt DateTime @updatedAt
   username  String   @unique
+}
+
+model Customer {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
+model Admin {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
+model SupportTicket {
+  createdAt DateTime  @default(now())
+  date      DateTime?
+  id        String    @id @default(cuid())
+  updatedAt DateTime  @updatedAt
 }

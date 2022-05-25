@@ -1,14 +1,14 @@
 {
-  "dataServiceGeneratorVersion": "0.12.2",
+  "dataServiceGeneratorVersion": "0.12.7",
   "appInfo": {
-    "name": "My app testg",
+    "name": "My app testing",
     "description": "",
-    "version": "iztpi47n",
+    "version": "9mj4hf7o",
     "id": "cl15zg8nc43382601s6h7jcl0da",
-    "url": "https://app.amplication.com/cl15zg8nc43382601s6h7jcl0da",
+    "url": "https://server.amplication.com/cl15zg8nc43382601s6h7jcl0da",
     "settings": {
       "dbHost": "localhost",
-      "dbName": "",
+      "dbName": "db01",
       "dbPassword": "admin",
       "dbPort": 5432,
       "dbUser": "admin",
